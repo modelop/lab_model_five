@@ -1,0 +1,109 @@
+{
+   "type": "record",
+   "name": "inferred_schema",
+   "fields": [
+      {
+         "name": "Pregnancies",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "Glucose",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "BloodPressure",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "SkinThickness",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "Insulin",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "BMI",
+         "type": [
+            "double",
+            "int"
+         ],
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "DiabetesPedigreeFunction",
+         "type": "double",
+         "dataClass": "numerical",
+         "role": "predictor",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "Gender",
+         "type": "string",
+         "dataClass": "categorical",
+         "role": "predictor",
+         "protectedClass": true,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": true
+      },
+      {
+         "name": "Outcome",
+         "type": "string",
+         "dataClass": "numerical",
+         "role": "label",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false
+      },
+      {
+         "name": "score",
+         "type": "int",
+         "dataClass": "numerical",
+         "role": "score",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": true
+      }
+   ]
+}
