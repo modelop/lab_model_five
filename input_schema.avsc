@@ -3,6 +3,18 @@
    "name": "inferred_schema",
    "fields": [
       {
+         "name": "predictionDate",
+         "type": "string",
+         "dataClass": "categorical",
+         "role": "prediction_date",
+         "protectedClass": false,
+         "driftCandidate": true,
+         "specialValues": [],
+         "scoringOptional": false,
+         "pii": false,
+         "phi": false
+      },
+      {
          "name": "Pregnancies",
          "type": "int",
          "dataClass": "numerical",
@@ -10,7 +22,9 @@
          "protectedClass": false,
          "driftCandidate": true,
          "specialValues": [],
-         "scoringOptional": false
+         "scoringOptional": false,
+         "pii": false,
+         "phi": true
       },
       {
          "name": "Glucose",
@@ -20,7 +34,9 @@
          "protectedClass": false,
          "driftCandidate": true,
          "specialValues": [],
-         "scoringOptional": false
+         "scoringOptional": false,
+         "pii": false,
+         "phi": true
       },
       {
          "name": "BloodPressure",
@@ -30,7 +46,9 @@
          "protectedClass": false,
          "driftCandidate": true,
          "specialValues": [],
-         "scoringOptional": false
+         "scoringOptional": false,
+         "pii": false,
+         "phi": true
       },
       {
          "name": "SkinThickness",
@@ -40,7 +58,9 @@
          "protectedClass": false,
          "driftCandidate": true,
          "specialValues": [],
-         "scoringOptional": false
+         "scoringOptional": false,
+         "pii": false,
+         "phi": true
       },
       {
          "name": "Insulin",
@@ -50,7 +70,9 @@
          "protectedClass": false,
          "driftCandidate": true,
          "specialValues": [],
-         "scoringOptional": false
+         "scoringOptional": false,
+         "pii": false,
+         "phi": true
       },
       {
          "name": "BMI",
@@ -63,7 +85,9 @@
          "protectedClass": false,
          "driftCandidate": true,
          "specialValues": [],
-         "scoringOptional": false
+         "scoringOptional": false,
+         "pii": false,
+         "phi": true
       },
       {
          "name": "DiabetesPedigreeFunction",
@@ -73,7 +97,9 @@
          "protectedClass": false,
          "driftCandidate": true,
          "specialValues": [],
-         "scoringOptional": false
+         "scoringOptional": false,
+         "pii": false,
+         "phi": true
       },
       {
          "name": "Gender",
@@ -83,27 +109,33 @@
          "protectedClass": true,
          "driftCandidate": true,
          "specialValues": [],
-         "scoringOptional": true
+         "scoringOptional": true,
+         "pii": true,
+         "phi": false
       },
       {
          "name": "Outcome",
-         "type": "string",
+         "type": "int",
          "dataClass": "numerical",
-         "role": "label",
+         "role": "predictor",
          "protectedClass": false,
          "driftCandidate": true,
          "specialValues": [],
-         "scoringOptional": false
+         "scoringOptional": false,
+         "pii": false,
+         "phi": true
       },
       {
          "name": "score",
          "type": "int",
-         "dataClass": "numerical",
+         "dataClass": "categorical",
          "role": "score",
          "protectedClass": false,
          "driftCandidate": true,
          "specialValues": [],
-         "scoringOptional": true
+         "scoringOptional": true,
+         "pii": false,
+         "phi": true
       }
    ]
 }
