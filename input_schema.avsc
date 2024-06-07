@@ -115,8 +115,8 @@
       },
       {
          "name": "Outcome",
-         "type": "int",
-         "dataClass": "numerical",
+         "type": "string",
+         "dataClass": "categorical",
          "role": "predictor",
          "protectedClass": false,
          "driftCandidate": true,
@@ -127,7 +127,7 @@
       },
       {
          "name": "score",
-         "type": "int",
+         "type": "string",
          "dataClass": "categorical",
          "role": "score",
          "protectedClass": false,
