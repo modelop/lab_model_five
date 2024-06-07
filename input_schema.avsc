@@ -117,7 +117,7 @@
          "name": "Outcome",
          "type": "string",
          "dataClass": "categorical",
-         "role": "predictor",
+         "role": "label",
          "protectedClass": false,
          "driftCandidate": true,
          "specialValues": [],
