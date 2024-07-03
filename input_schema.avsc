@@ -11,7 +11,7 @@
          "driftCandidate": true,
          "specialValues": [],
          "scoringOptional": false,
-         "phi": true,
+         "phi": true
       },
       {
          "name": "Glucose",
