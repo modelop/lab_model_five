@@ -10,7 +10,8 @@
          "protectedClass": false,
          "driftCandidate": true,
          "specialValues": [],
-         "scoringOptional": false
+         "scoringOptional": false,
+         "phi": true,
       },
       {
          "name": "Glucose",
@@ -20,7 +21,8 @@
          "protectedClass": false,
          "driftCandidate": true,
          "specialValues": [],
-         "scoringOptional": false
+         "scoringOptional": false,
+         "phi": true
       },
       {
          "name": "BloodPressure",
@@ -30,7 +32,8 @@
          "protectedClass": false,
          "driftCandidate": true,
          "specialValues": [],
-         "scoringOptional": false
+         "scoringOptional": false,
+         "phi": true
       },
       {
          "name": "SkinThickness",
@@ -40,7 +43,8 @@
          "protectedClass": false,
          "driftCandidate": true,
          "specialValues": [],
-         "scoringOptional": false
+         "scoringOptional": false,
+         "phi": true
       },
       {
          "name": "Insulin",
@@ -50,7 +54,8 @@
          "protectedClass": false,
          "driftCandidate": true,
          "specialValues": [],
-         "scoringOptional": false
+         "scoringOptional": false,
+         "phi": true
       },
       {
          "name": "BMI",
@@ -63,7 +68,8 @@
          "protectedClass": false,
          "driftCandidate": true,
          "specialValues": [],
-         "scoringOptional": false
+         "scoringOptional": false,
+         "phi": true
       },
       {
          "name": "DiabetesPedigreeFunction",
@@ -73,7 +79,19 @@
          "protectedClass": false,
          "driftCandidate": true,
          "specialValues": [],
-         "scoringOptional": false
+         "scoringOptional": false,
+         "phi": true
+      },
+      {
+         "name": "Race",
+         "type": "string",
+         "dataClass": "categorical",
+         "role": "predictor",
+         "protectedClass": true,
+         "driftCandidate": false,
+         "specialValues": [],
+         "scoringOptional": true,
+         "pii":  true
       },
       {
          "name": "Gender",
@@ -81,9 +99,10 @@
          "dataClass": "categorical",
          "role": "predictor",
          "protectedClass": true,
-         "driftCandidate": true,
+         "driftCandidate": false,
          "specialValues": [],
-         "scoringOptional": true
+         "scoringOptional": true,
+         "pii":  true
       },
       {
          "name": "Outcome",
