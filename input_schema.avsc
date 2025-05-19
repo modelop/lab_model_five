@@ -76,7 +76,7 @@
          "scoringOptional": false
       },
       {
-         "name": "Gender",
+         "name": "gender",
          "type": "string",
          "dataClass": "categorical",
          "role": "predictor",
