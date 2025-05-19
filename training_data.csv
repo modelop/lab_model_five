@@ -1,4 +1,4 @@
-Pregnancies,Glucose,BloodPressure,SkinThickness,Insulin,BMI,DiabetesPedigreeFunction,Gender,Outcome,score
+Pregnancies,Glucose,BloodPressure,SkinThickness,Insulin,BMI,DiabetesPedigreeFunction,gender,Outcome,score
 0,113,80,16,0,31,0.874,male,0,0
 1,138,82,0,0,40.1,0.236,female,0,1
 0,108,68,20,0,27.3,0.787,female,0,0
